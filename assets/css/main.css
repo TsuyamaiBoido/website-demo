@@ -319,7 +319,7 @@ article:last-child {
   background-color: rgb(200,0,35);
   padding: 0.75em 1em;
   margin-top: 1.5em;
-  max-width: 48%;
+  max-width: 34%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -360,6 +360,8 @@ article:last-child {
 .box-content {
   width: 85%;
   font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
   border: solid 1px #aaaaae;
   color: #414142;
   background-color: #fafaf5;
@@ -377,6 +379,27 @@ article:last-child {
 }
 
 .box-content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.box-content dd {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.box-content dt {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: rgb(175,0,0);
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
