@@ -16,9 +16,9 @@
   </head>
   <body>
     <!-- Header/Navigation Sidebar -->
-    <div id="header-wrapper">
+    <!-- <div id="header-wrapper">
       <header id="header"></header>
-    </div>
+    </div> -->
 
     <div id="page-wrapper" class="main-wrapper">
       <!-- Logo -->
@@ -57,7 +57,9 @@
     </div>
 
     <!-- Scripts -->
-    <script>
+     
+    <!-- Load navbar partial into header -->
+    <!-- <script>
       /* load navbar partial into header (works on static hosting) */
       fetch("partials/navbar.html")
         .then((r) => r.text())
@@ -65,7 +67,7 @@
           document.getElementById("header").innerHTML = html;
         })
         .catch((err) => console.error("Navbar load error:", err));
-    </script>
+    </script> -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
