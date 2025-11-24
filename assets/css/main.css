@@ -175,6 +175,7 @@ html {
   width: device-width;
 }
 
+/* body */
 body {
   font-size: 13.5pt;
   font-family: sans-serif;
@@ -182,12 +183,14 @@ body {
   font-family: "Ubuntu Condensed", sans-serif;
   color: #878e83;
   letter-spacing: -1px;
-  margin-left: 250px;
+  margin-left: 200px;
+  margin-right: 125px;
   background-image: url("../../images/bghead.png"),
     url("../../images/bgbottom.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top center, bottom center;
   background-size: contain, contain;
+  image-rendering: pixelated;
   /* background-attachment: fixed, fixed; */
 }
 
@@ -284,7 +287,7 @@ article:last-child {
 /* Main wrapper */
 
 .main-wrapper {
-  padding: 0 3em;
+  /* padding: 0 3em; */
 }
 
 /* Container */
@@ -326,6 +329,11 @@ article:last-child {
   padding: 0.75em 1em;
   margin-top: 1.5em;
   max-width: 34%;
+}
+
+.box img {
+  max-width: 1.5em;
+  image-rendering: pixelated;
 }
 
 @media screen and (max-width: 1280px) {
@@ -412,6 +420,43 @@ article:last-child {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+}
+
+/* Logo */
+
+.logo{
+  padding-left: 100px;
+  padding-top: 2px;
+  image-rendering: pixelated;
+}
+
+.logo img{
+  height: 100%;
+  width: 200px;
+}
+
+@media screen and (max-width: 736px) {
+  .logo{
+    padding-left: 50px;
+    padding-top: 2px;
+  }
+
+  .logo img{
+    width: 150px;
+  }
+  
+}
+
+@media screen and (max-width: 550px) {
+  .logo{
+    padding-left: 20px;
+    padding-top: 2px;
+  }
+
+  .logo img{
+    width: 120px;
+  }
+  
 }
 /* Row */
 
