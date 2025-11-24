@@ -183,13 +183,19 @@ body {
   color: #878e83;
   letter-spacing: -1px;
   margin-left: 250px;
+  background-image: url("../../images/bghead.png"),
+    url("../../images/bgbottom.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, bottom center;
+  background-size: contain, contain;
+  /* background-attachment: fixed, fixed; */
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: rgb(175,0,0);
+  color: rgb(175, 0, 0);
   font-weight: normal;
 }
 
@@ -234,9 +240,9 @@ strong {
   text-decoration: none;
 }
 
-img{
-	overflow-clip-margin: content-box;
-    overflow: clip;
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
 img.left {
@@ -316,7 +322,7 @@ article:last-child {
 /* Box */
 
 .box {
-  background-color: rgb(200,0,35);
+  background-color: rgb(200, 0, 35);
   padding: 0.75em 1em;
   margin-top: 1.5em;
   max-width: 34%;
@@ -399,7 +405,7 @@ article:last-child {
 .box-content dt {
   font-size: 15px;
   letter-spacing: 1px;
-  color: rgb(175,0,0);
+  color: rgb(175, 0, 0);
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -1702,11 +1708,15 @@ ul.link-list li:first-child {
 /* Header */
 
 #header-wrapper {
-  background-image: -moz-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-  background-image: -webkit-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-  background-image: -ms-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-  background-image: linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-  background-color: rgb(175,0,0);
+  background-image: -moz-linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(175, 0, 0),
+    rgb(175, 0, 0)
+  );
+  background-image: -ms-linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-color: rgb(175, 0, 0);
   position: fixed;
   left: 0;
   top: 0;
@@ -1715,10 +1725,14 @@ ul.link-list li:first-child {
 }
 
 #header {
-  background-image: -moz-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: -webkit-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: -ms-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
+  background-image: -moz-linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(175, 0, 0),
+    rgb(175, 0, 0)
+  );
+  background-image: -ms-linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   -ms-box-sizing: content-box;
@@ -1728,7 +1742,7 @@ ul.link-list li:first-child {
   border-radius: 0;
   border: solid 1px #ffffff;
   box-shadow: inset 0px 0px 0px 1px #ffffff, 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
-  background-color: rgb(175,0,0);
+  background-color: rgb(175, 0, 0);
   height: 100vh;
   width: 250px;
   left: 0;
@@ -1791,11 +1805,15 @@ ul.link-list li:first-child {
 }
 
 #header nav a.current-page-item {
-  background-image: -moz-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: -webkit-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: -ms-linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-image: linear-gradient(left, rgb(175,0,0), rgb(175,0,0));
-  background-color: rgb(175,0,0);
+  background-image: -moz-linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(175, 0, 0),
+    rgb(175, 0, 0)
+  );
+  background-image: -ms-linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-image: linear-gradient(left, rgb(175, 0, 0), rgb(175, 0, 0));
+  background-color: rgb(175, 0, 0);
   box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.1),
     0px 0px 5px 1px rgba(255, 255, 255, 0.1);
   border-left-color: #fff;
@@ -1806,7 +1824,7 @@ ul.link-list li:first-child {
   background-color: #ffffff;
   color: #000000;
   box-shadow: none;
-  border-left-color: rgb(175,0,0);
+  border-left-color: rgb(175, 0, 0);
 }
 
 /* Banner */
@@ -1993,10 +2011,14 @@ ul.link-list li:first-child {
   }
 
   #titleBar {
-    background-image: -moz-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-    background-image: -webkit-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-    background-image: -ms-linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
-    background-image: linear-gradient(top, rgb(175,0,0), rgb(175,0,0));
+    background-image: -moz-linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
+    background-image: -webkit-linear-gradient(
+      top,
+      rgb(175, 0, 0),
+      rgb(175, 0, 0)
+    );
+    background-image: -ms-linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
+    background-image: linear-gradient(top, rgb(175, 0, 0), rgb(175, 0, 0));
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -2015,7 +2037,7 @@ ul.link-list li:first-child {
     text-align: center;
     color: #fff;
     font-size: 1.25em;
-    background-color: rgb(175,0,0);
+    background-color: rgb(175, 0, 0);
   }
 
   #titleBar .title {
